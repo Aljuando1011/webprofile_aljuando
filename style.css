@@ -127,33 +127,15 @@ body{
     margin-bottom: 20px;
 }
 
-/* Portfolio section */
-#portfolio{
-    display: flex;
-    flex-direction: column;
-    background-color: #F39F5A;
-    color: #451952;
-    align-items: center;
-    padding: 20px;
-}
-.gallery{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    box-sizing: border-box;    
-}
-.gallery img{
-    width: 360px;
-    margin: 30px;
-}
+
 
 /* skills */
 #skills{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: #451952;
-    color: #F39F5A;
+    background-color: #F39F5A;
+    color: #451952;
 }
 .row{
     display: flex;
@@ -166,21 +148,21 @@ body{
     flex-direction: column;
     width: 350px;
     height: 450px;
-    border: 1px solid #F39F5A;
+    border: 1px solid #451952;
     margin: 10px;
     align-items: center;
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top, #F39F5A 50%, #451952 50%);
+    background: linear-gradient(to top, #451952 50%, #F39F5A 50%);
     background-size: 100% 200%;
     transition: all .8s;
 }
 .box:hover{
     background-position: left bottom;
-    color: #451952;
+    color: #F39F5A;
     border: none;
-    box-shadow: 0 0 20px #F39F5A;
+    box-shadow: 0 0 20px #451952;
 }
 .box img{
     width: 80px;
@@ -194,8 +176,8 @@ body{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: #F39F5A;
-    color: #451952;
+    background-color: #451952;
+    color: #F39F5A;
     padding: 20px;
 }
 .form{
@@ -224,10 +206,10 @@ body{
     margin: 40px;
     border: none;
     outline: none;
-    background-color: #451952;
-    color: #F39F5A;
+    background-color: #F39F5A;
+    color: #451952;
 }
 #send:hover{
     cursor: pointer;
-    box-shadow: 0 0  10px #451952;
+    box-shadow: 0 0  10px #F39F5A;
 }
