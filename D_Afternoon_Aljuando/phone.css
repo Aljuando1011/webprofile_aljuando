@@ -1,0 +1,28 @@
+/* home*/
+#home{
+    height: 820px;
+}
+.headings{
+    font-size: 1.7rem;
+}
+
+/* about*/
+#pic img{
+    height: auto;
+}
+#intro h2{
+    font-size: 1.5rem;
+}
+
+
+
+/*contact*/
+.input{
+    width: 80%;
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width: 20%;
+}
